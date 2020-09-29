@@ -32,7 +32,7 @@ while tracker !=1:
     output = "Wrong. :( "
     score -=1
   else:
-    output = "Please choose a, b, c or d only,noob."
+    output = "Please choose a, b, c or d only."
   
   print()
   print(output)
@@ -60,17 +60,17 @@ while tracker !=1:
     tracker =1
     score +=1
   elif answer == "b":
-    output = "Wrong. noob. If so, then it will be written as H and H - two hydrogen atoms."
+    output = "Wrong. If so, then it will be written as H and H - two hydrogen atoms."
     score -=1
   elif answer == "c":
-    output = "Wrong. noob. Clearly the number 2 in the formulae must mean something?"
+    output = "Wrong. Clearly the number 2 in the formulae must mean something?"
     score -=1
     
   elif answer == "d":
-    output = "Wrong. noob. What's the difference between a molecule and an atom?"
+    output = "Wrong. What's the difference between a molecule and an atom?"
     score -=1
   else:
-    output = "Please choose a, b, c or d only, noob. "
+    output = "Please choose a, b, c or d only. "
 
   print()
   print(output)
@@ -86,11 +86,11 @@ tracker = 0
 
 while tracker !=1:
   
-  print("Q"+str(counter)+") "+ "What is my favourite canteen food? ")
-  print("   a) mushroom minced meet noodles")
-  print("   b) ramen and beef")
-  print("   c) chicken cutlet")
-  print("   d) udon")
+  print("Q"+str(counter)+") "+ "When did Raffles come to Singapore? ")
+  print("   a) he didnt")
+  print("   b) 2019")
+  print("   c) 1918")
+  print("   d) 1819")
   answer = input("Your answer: ")
   answer = answer.lower()
   if answer == "a":
@@ -108,7 +108,7 @@ while tracker !=1:
     tracker =1
     score +=1
   else:
-    output = "Please choose a, b, c or d only, noob."
+    output = "Please choose a, b, c or d only."
 
   
 
@@ -120,4 +120,3 @@ while tracker !=1:
   print()
   
 print("End of quiz!")
-  
